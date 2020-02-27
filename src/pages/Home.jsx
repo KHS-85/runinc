@@ -3,6 +3,7 @@ import React from 'react'
 import WeLoveRunning from '../components/Layout/WeLoveRunning/WeLoveRunning'
 import Event from './Event'
 import Shop from './Shop'
+import Contact from './Contact'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
                 <WeLoveRunning />
                 <Event />
                 <Shop />
+                <Contact />
             </div>
         </div>
     )

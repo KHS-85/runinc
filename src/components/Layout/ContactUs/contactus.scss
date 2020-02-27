@@ -1,0 +1,58 @@
+@import '../../../GlobalStyles/variables';
+
+body {
+  font-family: $font-h;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1%;
+}
+
+
+ .adressbox {
+   background-color: black;
+   color: white;
+   line-height: 25px;
+   text-align: center;
+   padding: 12% 0 5% 0%;
+
+ }
+
+ .msgform {
+   text-align: left;
+ }
+
+ .msgform h2 {
+  padding-top: 14%;
+}
+
+.msgformcomp {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.msgform input[type=text] {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  border: black 2px solid;
+  height: auto;
+  width: 80%;
+  &:focus {outline: none; background-color: darken($color: yellow, $amount: 25);}
+
+}
+
+#besked {
+  height: 5em;
+}

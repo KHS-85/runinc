@@ -1,18 +1,9 @@
 @import '../../../GlobalStyles/variables';
 
-  /* Place text in the middle of the image */
-  .hero-text-shop {
-    font-family: $font-h;
-    text-align: right;
-    text-transform: uppercase;
-    position: absolute;
-    top: 30%;
-    right: 0%;
-    color: white;
-    background-color: black;
-    padding: 1% 15% 1% 4%;
-  
-  }
+* {
+  box-sizing: border-box;
+}
+
 
   .yellow-text-box {
     background-color: $defaultcolor;
@@ -33,4 +24,49 @@
 
   p {
     padding-bottom: 3%;
+  }
+
+  .shoes {
+    border: black solid 2px;
+    text-align: center;
+    padding: 0 15%;
+    margin-bottom: 10%;
+    text-shadow: 3px 2px 5px #C2C2C2;
+    font-size: large;
+  }
+
+  .shoecards {
+    margin-left: 3%;
+    margin-right: 9%;
+  }
+
+  .shoes p {
+    padding: 0 0 4%;
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 5%;
+  }
+
+  .blackbanner {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 1% 12% 1% 4%;
+    margin-bottom: 2%;
+    margin-top: 18%;
+  }
+
+  .blackbanner h1 {
+    font-family: $font-h;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 55px;
+  }
+
+  .fragt {
+    padding-bottom: 10%;
   }
