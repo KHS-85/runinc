@@ -9,11 +9,6 @@ img {
   margin: 0;
 }
 
-p {
-  padding: 0;
-  margin: 0;
-}
-
 h2 {
   padding: 0;
   margin: 0;
@@ -49,10 +44,32 @@ h2 {
   border: black 2px solid;
   height: auto;
   width: 80%;
-  &:focus {outline: none; background-color: darken($color: yellow, $amount: 25);}
+  &:focus {outline: none; background-color: rgb(255, 255, 137);}
 
 }
 
 #besked {
-  height: 5em;
+  height: 6em;
+  width: 80%;
+  background-color: yellow;
+  border: black 2px solid;
+  &:focus {outline: none; background-color: rgb(255, 255, 137);}
 }
+
+.msgbutton {
+  margin: 0 auto;
+  text-align: center !important;
+  float: none;
+  width: 130px;
+  
+}
+
+.adressbox p{
+  margin: 0 ; 
+  padding: 0 ;
+} 
+
+.msgformcomp p{
+  margin: 0 ; 
+  padding: 0 ;
+} 

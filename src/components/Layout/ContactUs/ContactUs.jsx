@@ -28,8 +28,8 @@ const ContactUs = () => {
                         <p>Telefonnr.:</p>
                         <input type="text" name="telefon" id="telefon" required/>
                         <p>Besked:</p>
-                        <input type="text" name="besked" id="besked" required/> <br/><br/>
-                        <button type="submit">Send besked</button>
+                        <textarea name="besked" id="besked"></textarea> <br/><br/>
+                        <button className="msgbutton" type="submit">Send besked</button>
                     </form>
                 </section>
             </article>
