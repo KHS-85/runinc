@@ -1,0 +1,52 @@
+
+@import '../../../GlobalStyles/variables';
+
+.hero-image-event {
+    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+    background-image: url("../../gfx/event.jpg");
+  
+    /* Set a specific height */
+    height: 100vh;
+    width: auto;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text-event {
+    font-family: $font-h;
+    text-align: right;
+    text-transform: uppercase;
+    position: absolute;
+    top: 27%;
+    left: 0;
+    color: white;
+    background-color: black;
+    padding: 10px 45px 10px 400px;
+  
+  }
+
+  .yellow-text-box {
+    background-color: $defaultcolor;
+    font-family: $font-h;
+    padding-top: 8%;
+    padding-left: 3%;
+    line-height: 5px; 
+  }
+
+  h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  h2 {
+    padding-bottom: 4%;
+  }
+
+  p {
+    padding-bottom: 3%;
+  }

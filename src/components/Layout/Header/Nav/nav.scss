@@ -1,0 +1,30 @@
+@import '../../../../GlobalStyles/variables';
+//used variables : $linkcolor, $linkactivecolor
+
+.navbar_link{
+    color: $linkcolor;
+    text-decoration: none;
+}
+
+.navbar_link:hover{
+    text-decoration: none;
+    color: hotpink;
+}
+
+.navbar_link--active{
+    color: $linkactivecolor;
+}
+
+li{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 26px;
+}
+
+nav {
+    margin: 10px;
+}
+
+ul{
+    padding-inline-start: 0;
+}

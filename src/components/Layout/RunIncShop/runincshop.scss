@@ -1,0 +1,36 @@
+@import '../../../GlobalStyles/variables';
+
+  /* Place text in the middle of the image */
+  .hero-text-shop {
+    font-family: $font-h;
+    text-align: right;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    color: white;
+    background-color: black;
+    padding: 1% 15% 1% 4%;
+  
+  }
+
+  .yellow-text-box {
+    background-color: $defaultcolor;
+    font-family: $font-h;
+    padding-top: 8%;
+    padding-left: 3%;
+    line-height: 5px; 
+  }
+
+  h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  h2 {
+    padding-bottom: 4%;
+  }
+
+  p {
+    padding-bottom: 3%;
+  }
