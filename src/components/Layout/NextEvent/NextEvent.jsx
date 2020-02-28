@@ -12,7 +12,7 @@ const NextEvent = () => {
                 </div>
             </div>
             <div className="yellow-text-box col-3">
-                <h2>Events</h2>
+                <h2 className="h2-event">Events</h2>
                 <h3><strong>Copenhagen Marathon</strong></h3>
                 <p>Den 29. maj 2018</p>
                 <h4>Aarhus City Run</h4>

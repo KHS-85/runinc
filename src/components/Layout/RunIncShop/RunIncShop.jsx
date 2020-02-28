@@ -24,7 +24,7 @@ const RunIncShop = () => {
                 <p>Hummel</p>
             </aside>
             <div className="col-9 p-0 m-0">
-                <div className="row">
+                <div className="row p-0 m-0">
                     <div className="col-8"></div> 
                     <div className="col-4 blackbanner">
                         <h1>Shop</h1>

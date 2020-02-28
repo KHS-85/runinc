@@ -1,3 +1,5 @@
+@import '../../../GlobalStyles/variables';
+
 .logo{
     // background: url(../../gfx/runinc_logo.svg);
     max-width: 50%;
@@ -29,12 +31,12 @@ header {
 }
 
 #searchform input[type=text] {
-    background-color: yellow;
+    background-color: $defaultcolor;
     color: rgb(0, 0, 0);
     border: black 2px solid;
     height: auto;
     width: 80%;
-    &:focus {outline: none; background-color: darken($color: yellow, $amount: 25);}
+    &:focus {outline: none; background-color: $selectedcolor;}
    
 }
 

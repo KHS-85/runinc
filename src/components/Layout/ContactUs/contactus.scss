@@ -39,12 +39,12 @@ h2 {
 }
 
 .msgform input[type=text] {
-  background-color: yellow;
-  color: rgb(0, 0, 0);
+  background-color: $defaultcolor;
+  color: black;
   border: black 2px solid;
   height: auto;
   width: 80%;
-  &:focus {outline: none; background-color: rgb(255, 255, 137);}
+  &:focus {outline: none; background-color: $selectedcolor;}
 
 }
 
@@ -53,7 +53,7 @@ h2 {
   width: 80%;
   background-color: yellow;
   border: black 2px solid;
-  &:focus {outline: none; background-color: rgb(255, 255, 137);}
+  &:focus {outline: none; background-color: $selectedcolor;}
 }
 
 .msgbutton {
@@ -73,3 +73,39 @@ h2 {
   margin: 0 ; 
   padding: 0 ;
 } 
+
+a {
+ color: white;
+ text-decoration: underline;
+}
+
+// testing below this line //
+
+.hoverWrapper:hover #hoverShow1 {
+  opacity: 0;
+  transition: 0.75s ease;
+ }
+ 
+ .hoverWrapper a{
+   color: black;
+ }
+
+
+ .hoverWrapper #hoverShow1 {
+  opacity: 1;
+  position: absolute;
+  background-color: yellow;
+  width: 75%;
+  height: auto;
+  left: 0;
+  top: 26%;
+  font-size: 3em;
+  font-family: $font-h;
+  text-align: right;
+  padding-right: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.75s ease;
+ }
+
+ 
