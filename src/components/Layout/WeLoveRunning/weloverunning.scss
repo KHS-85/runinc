@@ -2,7 +2,7 @@
 @import '../../../GlobalStyles/variables';
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+    
     background-image: url("../../gfx/hero.jpg");
   
     /* Set a specific height */
@@ -16,7 +16,6 @@
     position: relative;
   }
   
-  /* Place text in the middle of the image */
   .hero-text {
     font-family: $font-h;
     text-align: left;
@@ -26,7 +25,7 @@
     right: 0;
     color: white;
     background-color: black;
-    padding: 10px 200px 10px 45px;
+    padding: 1% 9% 1% 3%;
   
   }
 
