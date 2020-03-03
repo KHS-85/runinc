@@ -6,7 +6,7 @@
     background-image: url("../../gfx/event.jpg");
   
     /* Set a specific height */
-    height: 100vh;
+    height: 50vh;
     width: auto;
   
     /* Position and center the image to scale nicely on all screens */
@@ -25,8 +25,17 @@
     left: 0;
     color: white;
     background-color: black;
-    padding: 1% 3% 1% 36%;
+    padding: 1% 3%;
   
+  }
+
+  @media (min-width: 576px){
+    .hero-text-event {
+      padding: 1% 3% 1% 36%;
+    }
+    .hero-image-event {
+    height: 100vh; 
+    }
   }
 
   .yellow-text-box {
@@ -34,7 +43,7 @@
     font-family: $font-h;
     padding-top: 8%;
     padding-left: 3%;
-    line-height: 5px; 
+
   }
 
   h2, h3, h4 {
@@ -42,10 +51,14 @@
     font-weight: bold;
   }
 
-  .h2-event {
-    padding-bottom: 6%;
+  .event-text {
+    margin-bottom: 1%;
+    line-height: 1em;
+    font-weight: bold;
   }
 
-  p {
-    padding-bottom: 3%;
+
+  .h2-event {
+    padding-bottom: 6%;
+    margin-bottom: 6%;
   }

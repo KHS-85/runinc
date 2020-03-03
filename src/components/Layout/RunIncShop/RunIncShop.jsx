@@ -13,7 +13,7 @@ import Shoe6 from '../../gfx/shoe_06.jpg'
 const RunIncShop = () => {
     return (
         <article className="row p-0 m-0">
-            <aside className="yellow-text-box col-3">
+            <aside className="yellow-text-box-shop col-3">
                 <h2>Shop</h2>
                 <h3><strong>Runinc Shop</strong></h3>
                 <p className="fragt">Gratis fragt ved over kr. 500,-</p>
