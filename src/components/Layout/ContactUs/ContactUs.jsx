@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
         <div>
             <article className="row p-0 m-0 contactpage">
-                <section Map className="col-6 p-0 m-0 map">
+                <section Map className="col-12 col-sm-6 p-0 m-0 map">
                     <div className="hoverWrapper img-fluid p-0 m-0">
                         <a href="https://www.google.dk/maps/place/Kannikegade+12,+8000+Aarhus/"
                             target="_blank" rel="noopener noreferrer">
@@ -22,7 +22,7 @@ const ContactUs = () => {
                         <a href="mailto:info@runinc.dk" target="_top">info@runinc.dk</a>
                     </div>
                 </section>
-                <section className="col-6 p-0 m-0 msgform">
+                <section className="col-12 col-sm-6 p-0 m-0 msgform">
                     <form className="msgformcomp">
                         <h2>Send en besked</h2>
                         <p>Navn:</p>

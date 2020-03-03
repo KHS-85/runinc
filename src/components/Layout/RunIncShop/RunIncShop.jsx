@@ -12,8 +12,8 @@ import Shoe6 from '../../gfx/shoe_06.jpg'
 
 const RunIncShop = () => {
     return (
-        <article className="row p-0 m-0">
-            <aside className="yellow-text-box-shop col-3">
+        <article className="row center p-0 m-0">
+            <aside className="yellow-text-box-shop col-12 col-sm-3">
                 <h2>Shop</h2>
                 <h3><strong>Runinc Shop</strong></h3>
                 <p className="fragt">Gratis fragt ved over kr. 500,-</p>
@@ -23,10 +23,10 @@ const RunIncShop = () => {
                 <p>Asics</p>
                 <p>Hummel</p>
             </aside>
-            <div className="col-9 p-0 m-0">
+            <div className="col-12 col-sm-9 p-0 m-0">
                 <div className="row p-0 m-0">
-                    <div className="col-8"></div> 
-                    <div className="col-4 blackbanner">
+                    <div className="hidden col-sm-8"></div> 
+                    <div className="hidden col-sm-4 blackbanner">
                         <h1>Shop</h1>
                     </div>
                 </div>
@@ -34,26 +34,25 @@ const RunIncShop = () => {
                     <div className="row">
 
                     </div>
-                    <div className="row ">
-                        <div className="col-4">
-                            <div className="shoes"><img src={Shoe1} alt="running shoe" /> <p>Puma Highland 3000</p></div>
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-4">
+                            <div className="shoes"><img src={Shoe1} alt="running shoe" /><p>Puma Highland 3000</p></div>
 
                         </div>
-                        <div className="col-4">
+                        <div className="col-12 col-sm-6 col-md-4">
                             <div className="shoes"><img src={Shoe2} alt="running shoe" /><p>Asics Free Street</p></div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-12 col-sm-6 col-md-4">
                             <div className="shoes"><img src={Shoe3} alt="running shoe" /><p>New Balance Bounce</p></div>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-4">
+                    
+                        <div className="col-12 col-sm-6 col-md-4">
                             <div className="shoes"><img src={Shoe4} alt="running shoe" /><p>New Balance New York</p></div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-12 col-sm-6 col-md-4">
                             <div className="shoes"><img src={Shoe5} alt="running shoe" /><p>Nike Zoom Fly</p></div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-12 col-sm-6 col-md-4">
                             <div className="shoes"><img src={Shoe6} alt="running shoe" /><p>Nike React Infinity</p></div>
                         </div>
                     </div>

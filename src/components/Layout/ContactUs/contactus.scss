@@ -34,8 +34,17 @@ h2 {
 }
 
 .msgformcomp {
-  max-width: 40%;
+  max-width: 55%;
   margin: 0 auto;
+  
+}
+
+@media (min-width: 576px){
+  .msgformcomp {
+    max-width: 40%;
+    padding-top: 10%;
+    margin: 0 auto;
+  }
 }
 
 .msgform input[type=text] {
@@ -43,14 +52,14 @@ h2 {
   color: black;
   border: black 2px solid;
   height: auto;
-  width: 80%;
+  width: 100%;
   &:focus {outline: none; background-color: $selectedcolor;}
 
 }
 
 #besked {
   height: 6em;
-  width: 80%;
+  width: 100%;
   background-color: yellow;
   border: black 2px solid;
   &:focus {outline: none; background-color: $selectedcolor;}
