@@ -8,16 +8,16 @@ const Header = () => {
     return (
         <header>
             <div className="row p-0 m-0">
-                <div className="col-4">
+                <div className="col-hidden col-sm-4">
                     <section className="logo">
                         <img className="logo_img" src={Logo} alt="RunInc Logo" />
                         <img className="logo_img--hover" src={LogoHover} alt="RunInc Logo" />
                     </section>
                 </div>
-                <div className="col-4">
+                <div className="col-hidden col-sm-4">
                     <Nav />
                 </div>
-                <div className="col-4 m-0 p-0 pl-5">
+                <div className="col-hidden col-sm-4">
                     <form id="searchform">
                     <input type="text"></input>
                     <button type="submit">search</button>
